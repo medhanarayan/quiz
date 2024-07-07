@@ -1,0 +1,124 @@
+body
+{
+    margin: 0;
+    overflow: hidden;
+    background-size: 100% 100vh;
+    background-repeat: no-repeat;
+}
+/*beginning text*/
+.page
+{
+    margin-top: 20%;
+    margin-left: 15%;
+    margin-right:15% ;
+    text-align: center;
+    height:500px;
+
+    background-color: white;
+}
+h1{
+    padding-top: 10px;
+    margin-bottom: 50px;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.text
+{
+padding-top: 150px;
+    
+}
+/*timer*/
+.timer
+{
+    display: none;
+       text-align: left;
+       margin-left: 5px;
+        font-size: 20px;
+        font-weight: bold;
+        color: #ff0000;
+         padding: 5px; 
+    
+} 
+/*start button*/
+.button
+{
+   margin-top: 100px;
+   width: 100px;
+   height: 35px;
+}
+/*choices */
+.choices li {
+    text-align: center;
+    width: 90%;
+    padding: 10px;
+    list-style: none;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+.choices li:hover {
+    background-color: #e0e0e0;
+
+}
+/*scoreboard*/
+#choices p {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color :aquamarine; /* Change the color as needed */
+    background-color: black;
+    padding: 10px;
+    margin: 5px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+    
+/*previous button next button submit button */
+.prev-button ,.next-button,.submit-button
+{
+    display: none;
+    margin-right: 5%;
+}
+/*refresh button*/
+.refreshbutton
+{
+    display: none;
+}
+/*selected chpice colour*/
+.selected {
+    color: grey;
+}
+/*for javascript*/
+.notvisible
+{
+    display:none;
+}
+/*for the timer tobe visible*/
+.visibletimer
+{
+    display: block;
+    text-align: left;
+    margin-left: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ff0000;
+    padding: 5px; 
+    
+} 
+/*for making the buttons inline*/
+.inlinebuttons
+{
+    display: inline;
+    margin-right: 5%;
+}
+/*to make the text visible*/
+.questiontext1
+{
+    display: block;
+    padding-top: 10px;
+    margin-bottom: 50px;
+    margin-left: 2%;
+    margin-right: 2%;
+}
